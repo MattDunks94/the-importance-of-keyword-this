@@ -1,0 +1,18 @@
+#container {
+    display: flex; /* Makes container a flexbox. */
+    flex-flow: row wrap; /* Layout the rows and wrap them. */
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+}
+
+.card {
+    flex: 1; /* Make contents controllable with flexbox. */
+    display: flex;
+    flex-flow: column;
+    max-width: 240px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
